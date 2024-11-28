@@ -1,2 +1,4 @@
 #!/bin/bash
-yum install -y httpd
+apt update
+apt install -y apache2 unzip
+systemctl enable apache2
